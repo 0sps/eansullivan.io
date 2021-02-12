@@ -1,0 +1,20 @@
+a:focus, a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a {
+  transition: all .2s ease-in-out;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
