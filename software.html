@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html style="color: rgba(0,0,0,0);">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - SEAN SULLIVAN</title>
+    <meta name="description" content="Sean Sullivan -- Information Systems Student at Ohio State.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andada">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Accordion.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body id="page-top" style="background: url(&quot;https://s.eansullivan.io/background.webp&quot;);max-width: 1200;">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" style="background: rgba(0,0,0,.7);">
+        <div class="container-fluid"><a class="navbar-brand" href="https://s.eansullivan.io" style="color: rgba(255,255,255,0.9);font-family: Cabin, sans-serif;font-size: 36px;">SEAN SULLIVAN</a></div>
+    </nav>
+    <div id="topDiv" style="margin-top: 82px;text-align: center;padding-top: 0;">
+        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);margin-top: -91px;text-align: center;padding-bottom: 0;padding-top: 90px;opacity: 1;">
+            <p style="font-size: 41px;font-family: Cabin, sans-serif;margin: 26px;padding: 6px;line-height: 62px;">Software Design Project<br></p>
+            <div></div>
+        </div>
+        <div style="text-align: center;"></div>
+    </div>
+    <section style="padding-left: 44px;"><a href="https://s.eansullivan.io" style="color: rgb(222,222,222);font-size: 18px;font-family: 'Baloo Paaji 2', cursive;padding-left: -10px;"><br>⟵ Back<br><br></a></section>
+    <section class="text-center" style="margin-top: -112px;"><img class="img-fluid" src="assets/img/tecmo-bowl-ad.jpg" style="max-width: 40%;"></section>
+    <div class="container">
+        <div id="mainDiv" class="intro-body" style="margin: 33px;margin-top: 137px;text-align: center;margin-bottom: 0;max-height: 811px;"></div>
+        <p class="d-inline"></p>
+        <p style="margin-bottom: 41px;"><br>As part of the Fundamentals of Engineering course at The Ohio State University, I partnered with one other student to code a game in C++ for one of their custom Linux machines, dubbed a "Proteus".<br>Our project began with the following proposal:<br><br></p>
+        <h1><strong>Game summary:</strong><br></h1>
+        <p class="d-inline-block" style="text-align: left;font-family: 'Baloo Paaji 2', cursive;max-width: 700px;"><strong>Opening Screen:</strong> three options<br>Start Game<br>Credits<br>How to Play<br><br><br><strong>Start Game</strong><br>Field with one offensive player and one defender<br>Game will have three second countdown and begin<br>Will keep track of total wins<br>Four directional arrows in SE corner that control direction of offensive player<br><br><strong>Player</strong><br>Player object will consist of a team name and points that make up where player is currently<br><br>(Constructor will be team name and whether the player is user or AI)<br><br><br>.moveUp(), .moveLeft(), .moveRight(), .moveBack() methods which will<br> work by adding or subtracting one to the x or y coordinate of each <br>point.<br><br><strong>Credits</strong><br>Jackson Corbisello, Sean Sullivan<br>FEH Proteus website as reference<br><br><strong>How to Play:</strong><br>Tell user to avoid getting tackled<br>They move using control arrows<br>Tell them their number of wins<br></p>
+        <section style="text-align: center;"><a href="https://s.eansullivan.io/software/project_proposal.docx" style="color: rgb(255,255,255);font-family: 'Baloo Paaji 2', cursive;font-size: 18px;text-align: center;border-radius: 10px;background: rgba(6,6,6,0.5);border: 1px solid #ffffff ;">&nbsp; Download Full Project Proposal Here&nbsp;&nbsp;</a></section>
+        <section style="text-align: center;padding-top: 100px;">
+            <h1>Program description for developers</h1>
+            <p style="text-align: left;"><strong>Assumptions Made Before Coding Tecmo Bowl</strong><br>- User will follow all instructions in manual and How to Play button<br>- User is capable of operating Proteus and using fine motor skills<br>- User knows basic football concepts such as the “endzone” and scoring a “touchdown”<br>- The user is not trying to break game; user is trying to play game for entertainment<br><br>&nbsp;<br><strong>Key Variables</strong><br><em>- Player user, comp;</em><br>- These two Player objects are the players in the game and the two main variables in the game.<br>- Each Player object has four key variables that allow them to be moved around the screen:<br><em>int x, y, hX, hY;</em><br>The x and y variables give the coordinates of the top left point of <br>the body of the player and hX and hY give the coordinate of the top left<br> point if the helmet of each player. These four variables are what are <br>manipulated every time the player moves to create motion on the screen.<br>Each Player object also has a variable&nbsp;<em>int position</em> that is a 1 if it is the user and a 2 if it is the AI. This allows for the proper coloring of the players’ helmets and jerseys.<br>The variable&nbsp;<em>bool useRight</em> is also used in the program to <br>determine whether the AI is moving to the left or right. When it is <br>false, the defender moves to the left. It becomes true just as the <br>player would hit the left wall so that he then slides to the right. It <br>goes back to false just as he would hit right wall, and so on.<br>&nbsp;<br><strong>Functions</strong><br><strong>Static Methods</strong><br><em>void setField()</em><br>This method creates the field background and the directional arrows <br>used in gameplay. Method is called when the game is launched from Start <br>menu:<br>if(x&gt;=80 &amp;&amp; x&lt;= 160 &amp;&amp; y&gt;=80 &amp;&amp; y&lt;=130)<br>setField();<br><em>bool isTackled(Player a, Player b)</em><br>This method determines if Player a is undergoing a head-on collision <br>with Player b, in which he would be “tackled.” Returns true if there is a<br> matching x and y coordinate on the front of both players, meaning they <br>are colliding:<br>while(!isTackled(user, comp)){<br>}<br><strong>Player Class Methods</strong><br><em>Player(const char t[], int p)</em><br>The constructor asks for the team name of the player and the integer that determines user or AI:<br>Player user= Player(“OSU”, 1);<br><em>void drawPlayer(int p)</em><br>Method asks for position of player to determine colors and then draws<br> a rectangle for the body and a square for a helmet based on the <br>object’s x,y,hX, and hY values:<br>user.drawPlayer(1);<br><em>void moveUp()</em><br>The method decrements the hY and y values and redraws the player so he is translated up three pixels:<br>user.moveUp();<br><em>void moveDown()</em><br>The method increments the hY and y values and redraws the player so he is translated down three pixels:<br>user.moveDown();<br><em>void moveLeft()</em><br>The method decrements the hX and x values and redraws the player so he is translated left three pixels:<br>user.moveLeft();<br><em>void moveRight()</em><br>The method increments the hX and x values and redraws the player so he is translated right three pixels:<br>user.moveRight();<br><em>int getX()</em><br>Method returns Player’s x:<br>user.getX();<br><em>int getY()</em><br>Method returns Player’s y:<br>user.getY();<br><em>int getHX()</em><br>Method returns Player’s hX:<br>user.getHX();<br><em>int getHY()</em><br>Method returns Player’s hY:<br>user.getHY();<br><em>bool inEndZone()</em><br>Method returns true if the Player’s y value is equal to or less than <br>the bottom y value of the endzone on screen, and false if he is not yet <br>there:<br>if(user.inEndZone()){<br>}<br>&nbsp;<br><strong>Program Performance and Limitations</strong><br>The program is able to have motion on the screen without excessive <br>flickering, which allows for more crisp gameplay. The game is limited in<br> the intelligence of the artificial intelligence and in controlling the <br>speed of the artificial intelligence’s motion relative to that of the <br>player. This allows for the game to be relatively easy for the user to <br>score a touchdown, which is a potential plus for the company because <br>initial users will enjoy the success and want to continue to play. The <br>program performance allows for a Start menu with options that always <br>reverts back to the main menu, giving the user the capability to utilize<br> all of the options that the Tecmo Bowl game has to offer.<br><br></p><a href="https://s.eansullivan.io/software/project_proposal.docx" style="color: rgb(255,255,255);font-family: 'Baloo Paaji 2', cursive;font-size: 18px;text-align: center;background: rgba(6,6,6,0.5);border-radius: 10px;border: 1px solid #ffffff ;">&nbsp; Download Algorithm Here&nbsp;&nbsp;</a>
+        </section>
+        <section style="text-align: center;padding-top: 100px;">
+            <h1>Final Code</h1><a href="https://s.eansullivan.io/software/SDP_Final.pdf" style="color: rgb(255,255,255);font-family: 'Baloo Paaji 2', cursive;font-size: 18px;text-align: center;background: rgba(6,6,6,0.5);border-radius: 10px;border: 1px solid #ffffff ;">&nbsp; &nbsp;Download Final Code&nbsp; &nbsp;</a>
+        </section>
+        <div class="row"></div>
+        <div class="row">
+            <div class="col" style="text-align: center;">
+                <h1>References</h1>
+                <p><br>All source code property of Jackson Corbisello, Sean Sullivan.<br>Utilized FEH C++ Libraries for game adaptation on to Proteus.<br>FEH Proteus Guide used as reference throughout game development.<br></p><a href="https://u.osu.edu/fehproteus/" style="color: rgb(255,255,255);font-family: 'Baloo Paaji 2', cursive;font-size: 18px;text-align: center;border-radius: 10px;background: rgba(6,6,6,0.5);border: 1px solid #ffffff;">&nbsp; &nbsp;FEH Proteus Guide Here&nbsp; &nbsp;</a>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 50px;padding-bottom: 0;margin-top: 80px;text-align: center;margin-bottom: 700px;">
+        <div class="col">
+            <footer class="text-center" style="background: rgba(16,16,16,0);">
+                <div class="container text-center d-xl-flex justify-content-xl-center text-center" style="text-align: center;">
+                    <div class="row">
+                        <div class="col text-center">
+                            <p class="text-center" style="font-family: Cabin, sans-serif;text-align: left;min-width: 249px;">Copyright ©&nbsp;SEAN SULLIVAN 2020</p>
+                        </div>
+                        <div class="col">
+                            <p class="text-center" style="text-align: right;font-family: Cabin, sans-serif;">Contact Me</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="map-clean"></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+</body>
+
+</html>
