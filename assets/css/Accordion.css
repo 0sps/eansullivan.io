@@ -22,3 +22,9 @@
   transition: all 0.3s;
 }
 
+@media (max-width: 500px) {
+  #flyer {
+    width: 300px;
+  }
+}
+
