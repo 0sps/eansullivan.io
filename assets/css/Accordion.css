@@ -28,3 +28,12 @@
   }
 }
 
+@media (min-width: 400px) {
+  #jumbo {
+    max-width: none;
+  }
+}
+
+#jumbo {
+}
+
