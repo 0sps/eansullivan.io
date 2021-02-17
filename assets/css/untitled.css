@@ -87,3 +87,15 @@
   height: auto;
 }
 
+@media (min-width: 300px) {
+  #bottomDiv {
+    padding-bottom: 250px;
+  }
+}
+
+@media (min-width: 500px) {
+  #bottomDiv {
+    padding-bottom: 0px;
+  }
+}
+
