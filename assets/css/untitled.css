@@ -21,15 +21,6 @@
   opacity: .2;
 }
 
-@media (max-width: 400px) {
-  .img-fluid {
-    max-width: 181px;
-    text-align: center;
-    margin-top: 0px;
-    margin-right: 0px;
-  }
-}
-
 .img-fluid {
   max-width: 181px;
   text-align: center;
@@ -77,5 +68,22 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+@media (min-width: 576px) {
+  #tecmo {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 300px) {
+  #tecmo {
+    max-width: 90%;
+  }
+}
+
+.img-fluid, .img-thumbnail {
+  /*max-width: 100%;*/
+  height: auto;
 }
 
