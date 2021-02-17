@@ -53,8 +53,8 @@
 
 @media (min-width: 300px) {
   p {
-    font-size: 34px;
-    line-height: 45px;
+    font-size: 16px;
+    line-height: 30pxpx;
     /*word-wrap: break-word;*/
   }
 }
