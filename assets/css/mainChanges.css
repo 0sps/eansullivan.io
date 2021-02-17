@@ -121,3 +121,16 @@
   }
 }
 
+@media (min-width: 300px) {
+  #softTitle {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 608px) {
+  #softTitle {
+    font-size: 40px;
+  }
+}
+
