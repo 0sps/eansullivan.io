@@ -51,3 +51,11 @@
   }
 }
 
+@media (min-width: 300px) {
+  p {
+    font-size: 34px;
+    line-height: 45px;
+    /*word-wrap: break-word;*/
+  }
+}
+

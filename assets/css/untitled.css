@@ -21,3 +21,33 @@
   opacity: .2;
 }
 
+@media (max-width: 400px) {
+  .img-fluid {
+    max-width: 181px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+}
+
+.img-fluid {
+  max-width: 181px;
+  text-align: center;
+  margin-top: -294px;
+  margin-right: 74px;
+}
+
+@media (min-width:768px) {
+  p {
+    font-size: 40px;
+    line-height: 1.6;
+    margin: 0 0 35px;
+  }
+}
+
+@media (min-width: 400px) {
+  #newText {
+    line-height: 35px;
+  }
+}
+
