@@ -59,3 +59,25 @@
   }
 }
 
+.navbar.navbar-light.navbar-expand-md.fixed-top {
+  border-radius: 0px;
+}
+
+@media (min-width: 300px) {
+  #topImage {
+    max-height: 100px;
+  }
+}
+
+@media (min-width: 550px) {
+  #topImage {
+    max-height: none;
+  }
+}
+
+.btn.btn-primary {
+}
+
+.btn.btn-primary.newClass {
+}
+
