@@ -59,11 +59,6 @@
   }
 }
 
-.footer-dark {
-  position: fixed;
-  bottom: 0;
-}
-
 .navbar.navbar-light.navbar-expand-md.fixed-top {
   border-radius: 0px;
 }
