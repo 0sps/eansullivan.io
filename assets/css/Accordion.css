@@ -81,3 +81,15 @@
 .btn.btn-primary.newClass {
 }
 
+@media (min-width: 400px) {
+  .snip1527 {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .snip1527 {
+    margin-left: 0;
+  }
+}
+
