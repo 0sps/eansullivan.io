@@ -93,3 +93,26 @@
   }
 }
 
+@media (min-width: 350px) {
+  #mainBlock {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 330px) {
+  #secondBlock {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+#toc {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.links2 {
+  text-decoration: underline;
+}
+
