@@ -119,32 +119,74 @@ h6 {
 }
 
 @media (min-width: 300px) {
+  #gaiq #gaiq2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  #amazonCCP, #gaiq, #gaiq2 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #amazonCCP, #gaiq, #gaiq2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  #virtanz {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #virtanz {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 661px) {
+  #amazonCCP {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 661px) {
+  #gaiq2 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 300px) {
+  #gaiq2 {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 560px) {
+  #gaiq2 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 631px) {
+  #gaiq2 {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 358px) {
+  #amazonCCP {
+    margin-top: 13px;
+  }
+}
+
+@media (min-width: 362px) {
   #gaiq {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 400px) {
-  #amazonCCP {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 300px) {
-  #amazonCCP {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 400px) {
-  #virtanza {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 300px) {
-  #virtanza {
-    font-size: 14px;
+    margin-top: 5px;
   }
 }
 
