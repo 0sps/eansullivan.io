@@ -109,3 +109,42 @@
   text-decoration: underline;
 }
 
+h6 {
+}
+
+@media (min-width: 400px) {
+  #gaiq {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #gaiq {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  #amazonCCP {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #amazonCCP {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  #virtanza {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #virtanza {
+    font-size: 14px;
+  }
+}
+
