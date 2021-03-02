@@ -190,3 +190,33 @@ h6 {
   }
 }
 
+@media (min-width: 992px) {
+  #googAna2 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #publisher {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  #muse {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  #indesign {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 300px) {
+  #publisher {
+    margin-top: 5px;
+  }
+}
+
