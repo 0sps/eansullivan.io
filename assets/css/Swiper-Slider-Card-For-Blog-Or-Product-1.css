@@ -22,7 +22,8 @@
   .blog-slider {
     min-height: 500px;
     height: auto;
-    margin: 180px auto;
+    margin-top: 180px;
+    margin-bottom: 60px;
   }
 }
 

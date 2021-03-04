@@ -225,3 +225,8 @@ h6 {
   font-family: 'Baloo Paaji 2';
 }
 
+@media (min-width: 300px) {
+  .container {
+  }
+}
+
