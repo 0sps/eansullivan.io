@@ -47,8 +47,6 @@
 @media (min-width: 300px) {
   p {
     font-size: 16px;
-    line-height: 30pxpx;
-    /*word-wrap: break-word;*/
   }
 }
 
@@ -227,6 +225,18 @@ h6 {
 
 @media (min-width: 300px) {
   .container {
+  }
+}
+
+@media (min-width: 768px) {
+  #slider {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  #slider {
+    margin-bottom: 80px;
   }
 }
 
