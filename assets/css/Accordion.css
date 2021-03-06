@@ -244,3 +244,9 @@ h6 {
   box-shadow: 4px 13px 30px 1px rgba(56,134,252,0.24);
 }
 
+@media (min-width: 992px) {
+  #brand {
+    font-size: 38px;
+  }
+}
+
