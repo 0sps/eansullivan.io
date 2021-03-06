@@ -134,3 +134,9 @@
   }
 }
 
+@media (min-width:1208px) {
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
+}
+
