@@ -18,17 +18,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Accordion.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js-1.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js.css">
     <link rel="stylesheet" href="assets/css/content_blocks_modernstyle.css">
     <link rel="stylesheet" href="assets/css/Continue-Button.css">
     <link rel="stylesheet" href="assets/css/Cool-Menu-Navbar.css">
+    <link rel="stylesheet" href="assets/css/dh-header-non-rectangular.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue--Sticky-Header--Smooth-Scroll.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="assets/css/mainChanges.css">
     <link rel="stylesheet" href="assets/css/Mega-Menu-Dropdown-100-Editable---Ambrodu.css">
@@ -40,17 +45,25 @@
 </head>
 
 <body id="page-top" style="background: url(&quot;https://s.eansullivan.io/background.webp&quot;);max-width: 1200;">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" style="background: rgba(0,0,0,.75);">
-        <div class="container-fluid"><a class="navbar-brand" href="https://s.eansullivan.io" style="color: rgba(255,255,255,0.9);font-family: Cabin, sans-serif;font-size: 36px;">SEAN SULLIVAN</a></div>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div><a class="navbar-brand" id="brand" style="font-weight: bold;/*font-size: 50px;*/margin-top: 11px;padding-top: 15px;color: #dfe8ee;" href="https://s.eansullivan.io"> SEAN SULLIVAN</a></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="margin-top: 19px;background: url(&quot;assets/img/icon2.png&quot;) center / contain no-repeat;"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto" style="margin-top:13px;">
+                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="https://s.eansullivan.io">Home </a></li>
+                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="#mainTitle">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="#goodscroll">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="#skills">SKILLS</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div id="topDiv" style="margin-top: 82px;text-align: center;padding-top: 0;">
-        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);margin-top: -91px;text-align: center;padding-bottom: 0;padding-top: 90px;opacity: 1;">
-            <p id="softTitle" style="/*font-size: 41px;*/font-family: Cabin, sans-serif;margin: 26px;padding: 6px;/*line-height: 62px;*/padding-bottom: 20px;padding-top: 0px;">Software Design Project<br></p>
+    <section style="padding: 0px;padding-top: 64px;">
+        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);text-align: center;padding-bottom: 0;opacity: 1;max-height: 130px;/*margin-top: -7px;*/padding-top: 88px;">
+            <p id="softTitle" style="/*font-size: 41px;*/font-family: Cabin, sans-serif;/*line-height: 62px;*/padding-top: 0px;padding-bottom: 20px;margin-top: -66px;">Software Design Project<br></p>
             <div></div>
         </div>
-        <div style="text-align: center;"></div>
-    </div>
-    <section style="padding-left: 44px;"><a href="https://s.eansullivan.io" style="color: rgb(222,222,222);font-size: 18px;font-family: 'Baloo Paaji 2', cursive;padding-left: -10px;"><br>⟵ Back<br><br></a></section>
+    </section>
     <div class="container" style="max-width: 700px;text-align: center;"><img class="img-fluid" id="tecmo" src="assets/img/tecmo-bowl-ad.jpg" style="margin-top: 28px;text-align: center;margin-right: 0px;"></div>
     <section class="text-center d-inline-block" style="margin-top: -112px;text-align: center;"></section>
     <div class="container" style="text-align: center;max-width: 900px;">
@@ -119,6 +132,8 @@
     <script src="assets/js/grayscale.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Bold-BS4-Jumbotron-with-Particles-js.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll-1.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll.js"></script>
     <script src="assets/js/responsive-blog-card-slider-1.js"></script>
     <script src="assets/js/responsive-blog-card-slider.js"></script>
     <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>

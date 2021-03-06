@@ -18,17 +18,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Accordion.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js-1.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js.css">
     <link rel="stylesheet" href="assets/css/content_blocks_modernstyle.css">
     <link rel="stylesheet" href="assets/css/Continue-Button.css">
     <link rel="stylesheet" href="assets/css/Cool-Menu-Navbar.css">
+    <link rel="stylesheet" href="assets/css/dh-header-non-rectangular.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue--Sticky-Header--Smooth-Scroll.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="assets/css/mainChanges.css">
     <link rel="stylesheet" href="assets/css/Mega-Menu-Dropdown-100-Editable---Ambrodu.css">
@@ -40,16 +45,35 @@
 </head>
 
 <body id="page-top" style="background: url(&quot;https://s.eansullivan.io/background.webp&quot;);max-width: 1200;">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" style="background: rgba(0,0,0,.75);">
-        <div class="container-fluid"><a class="navbar-brand" href="https://s.eansullivan.io" style="color: rgba(255,255,255,0.9);font-family: Cabin, sans-serif;font-size: 36px;">SEAN SULLIVAN</a></div>
-    </nav>
-    <div id="topDiv" style="margin-top: 82px;text-align: center;padding-top: 0;">
-        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);margin-top: -91px;text-align: center;padding-bottom: 0;padding-top: 90px;opacity: 1;padding-right: 0px;padding-left: 0px;margin-bottom: 19px;">
-            <p class="text-center d-block" id="topImage" style="padding-top: 289px;font-size: 36px;font-family: Cabin, sans-serif;margin: 0;background: url(&quot;assets/img/skydivin.jpg&quot;) center / cover;opacity: 0.77;margin-top: -2px;">&nbsp;&nbsp;</p>
-            <p id="mainTitle" style="/*font-size: 28px;*/font-family: Cabin, sans-serif;margin: 26px;padding: 6px;/*line-height: 62px;*/">SEAN SULLIVAN: Second Year, Ohio State University<br></p>
+    <header class="dh-header-non-rectangular" style="margin-top: -20px;background: rgba(233,236,239,0.08);">
+        <div class="header__bg" style="background: url(&quot;assets/img/skydivin.jpg&quot;) center / cover;"></div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div><a class="navbar-brand" id="brand" style="font-weight: bold;/*font-size: 50px;*/margin-top: 11px;padding-top: 15px;" href="https://s.eansullivan.io"> SEAN SULLIVAN</a></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="margin-top: 19px;background: url(&quot;assets/img/icon2.png&quot;) center / contain no-repeat;"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav ml-auto" style="margin-top:13px;">
+                        <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="https://s.eansullivan.io">Home </a></li>
+                        <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="#mainTitle">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="#goodscroll">PROJECTS</a></li>
+                        <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="#skills">SKILLS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="col-md-12 dh-header-non-rectangular-container">
+                <h1 style="margin-top: 18px;">SEAN SULLIVAN</h1>
+                <p style="margin-bottom: 25px;">Information Systems and Engineering</p>
+                <section style="margin-top: -15px;"><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;margin-bottom: 12px;margin-top: 14px;"><a class="text-body flex-grow-1 flex-shrink-1" href="mailto:s@eansullivan.io" style="font-size: 20px;font-weight: bold;">Contact</a></button><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="https://s.eansullivan.io/resources/Resume.pdf" style="font-size: 20px;font-weight: bold;">Resume</a></button></section>
+            </div>
+        </div>
+    </header>
+    <div id="topDiv" style="text-align: center;padding-top: 0;">
+        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);text-align: center;padding-bottom: 0;padding-top: 90px;opacity: 1;padding-right: 0px;padding-left: 0px;margin-bottom: 19px;">
+            <p id="mainTitle" style="/*font-size: 28px;*/font-family: Cabin, sans-serif;margin: 26px;padding: 6px;/*line-height: 62px;*/margin-top: 57px;">SEAN SULLIVAN: Second Year, Ohio State University<br></p>
             <div class="container" style="max-width: 1000px;">
                 <div class="row">
-                    <div class="col"><img class="img-fluid d-inline" src="assets/img/headshot.jpg" style="margin-top: 30px;margin-right: 0px;margin-bottom: 10px;"></div>
+                    <div class="col"><img class="img-fluid" id="headshot" src="assets/img/headshot.jpg" style="margin-top: 30px;margin-right: 0px;margin-bottom: 10px;"></div>
                     <div class="col">
                         <p class="d-inline-block flex-grow-1 flex-shrink-1 intro-text" id="newText" style="padding: 0px;font-size: 20px;padding-top: 0;padding-left: 0;padding-right: 0;padding-bottom: 0;max-width: 623px;color: rgb(255, 255, 255);margin-top: 10px;min-width: 300px;">Information Systems major with minors in Economics and Engineering at The Ohio State University.<br>I'm a health advocate, an air quality nerd, and a technology addict. Website designed entirely in Bootstrap Studio because you can't get exactly what you want from a WordPress template.<br><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;margin-bottom: 12px;margin-top: 14px;"><a class="text-body flex-grow-1 flex-shrink-1" href="mailto:s@eansullivan.io" style="font-size: 20px;font-weight: bold;">Contact</a></button><br><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="https://s.eansullivan.io/resources/Resume.pdf" style="font-size: 20px;font-weight: bold;">Resume</a></button><br><br></p>
                     </div>
@@ -76,12 +100,18 @@
                 <div></div>
                 <div class="blog-slider__img" style="background: #EBF3FF;"><img src="assets/img/flyer.jpg"></div>
                 <div class="blog-slider__content"><span class="blog-slider__code">RECENT</span><div class="blog-slider__title">Nanotechnology Project</div><div class="blog-slider__text">This was a semester-long project sponsored by Ohio State's College of Engineering with two aims:  
-Aim 1, Researching and designing a nanolyser, (a lab-on-a-chip) capable of detecting HIV with a single drop of blood. Aim 2, Conducting experiments on yeast cell adhesion in microchannels when subjected to saline water as a model for cleaning biomedical implants.</div><a id="readMore" class="class=&quot;blog-slider__button" href="#nanotechnology">READ MORE</a></div>
+Aim 1, Researching and designing a nanolyser, (a lab-on-a-chip) capable of detecting HIV with a single drop of blood. Aim 2, Conducting experiments on yeast cell adhesion in microchannels when subjected to saline water as a model for cleaning biomedical implants.</div><a id="readMore" class="class=&quot;blog-slider__button" href="#nanotechnology"><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" id="read_more_button" href="nanotechnology" style="font-size: 20px;font-weight: bold;">Read More</a></button></a></div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div></div>
+                <div class="blog-slider__img" style="background: #EBF3FF;"><img src="assets/img/Bootstrap_Studio_Logo.png"></div>
+                <div class="blog-slider__content"><span class="blog-slider__code">RECENT</span><div class="blog-slider__title">Portfolio Design Project</div><div class="blog-slider__text">As a fun (and absolutely necessary) way to showcase the cool things I've done throughout my time at Ohio State, I created my own website from the ground-up. 
+With the use of Bootstrap Studio, some CSS tutorials, and a few other tools, I made it a reality in just a few short weeks.</div><a id="readMore" class="class=&quot;blog-slider__button" href="#website-design">READ MORE</a></div>
             </div>
             <div class="blog-slider__pagination"></div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="skills">
         <div class="row text-center justify-content-center" style="background: #ffffff;border-width: 2px;border-radius: 10px;text-align: center;">
             <div class="col" id="buttonn" style="text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;background: rgb(0,0,0);border-radius: 10px;border-width: 2px;border-style: solid;min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/Resume.pdf" style="min-width: 175px;padding-top: 0px;padding-bottom: 0px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;"><button class="btn btn-primary newClass" id="button" type="button" style="background: rgba(0,0,0,0);border-radius: 5px;/*min-width: 175px;*/padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;/*margin-right: 0px;*//*margin-left: 0px;*/border-color: rgba(255,255,255,0);color: rgb(255,255,255);min-height: 40px;">Download<br>&nbsp;Resume<br></button></a></div>
             <div class="col" id="buttonn" style="text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;border-radius: 10px;border-width: 2px;border-style: solid;background: rgb(0,0,0);min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/MATLAB.zip" style="min-width: 175px;padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;margin-right: 5px;margin-left: 5px;min-height: 40px;"><button class="btn btn-primary d-inline newClass" id="downloadM" type="button" style="border-radius: 5px;background: rgba(255,255,255,0);/*min-width: 175px;*//*padding: 0px;*/padding-top: 0px;padding-bottom: 0px;/*margin-top: 0px;*//*margin-bottom: 0px;*//*margin-right: 0px;*//*margin-left: 0px;*/border-color: rgba(255,255,255,0);color: rgb(255,255,255);min-height: 40px;padding-right: 10px;">Download MATLAB Portfolio<br></button></a></div>
@@ -269,6 +299,8 @@ Aim 1, Researching and designing a nanolyser, (a lab-on-a-chip) capable of detec
     <script src="assets/js/grayscale.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Bold-BS4-Jumbotron-with-Particles-js.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll-1.js"></script>
+    <script src="assets/js/Header-Blue--Sticky-Header--Smooth-Scroll.js"></script>
     <script src="assets/js/responsive-blog-card-slider-1.js"></script>
     <script src="assets/js/responsive-blog-card-slider.js"></script>
     <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>

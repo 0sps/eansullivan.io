@@ -83,8 +83,9 @@
 }
 
 .img-fluid, .img-thumbnail {
-  /*max-width: 100%;*/
+  max-width: 100%;
   height: auto;
+  max-width: 600px;
 }
 
 @media (min-width: 300px) {
@@ -104,20 +105,9 @@
   margin-right: auto;
 }
 
-@media (min-width: 300px) {
+@media screen and (max-width: 330px) {
   #nanotechTitle {
-  }
-}
-
-@media (min-width: 300px) {
-  #nanoColumn {
-    padding-top: 70px;
-  }
-}
-
-@media (min-width: 580px) {
-  #nanoColumn {
-    padding-top: 0px;
+    font-size: 25px;
   }
 }
 
@@ -132,5 +122,14 @@
   #softTitle {
     font-size: 40px;
   }
+}
+
+@media (min-width:1208px) {
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
 }
 
