@@ -254,3 +254,7 @@ h6 {
   max-width: 190px;
 }
 
+#tagline, #contactButtons {
+  margin-top: 150px;
+}
+
