@@ -124,15 +124,15 @@
 .navigation-clean.navbar-inverse .navbar-nav > li > a {
   color: #f0f0f0;
   font-weight: bold;
+  /*text-transform: uppercase;*/
 }
 
 .navigation-clean.navbar-inverse .navbar-nav > li > a:focus, .navigation-clean.navbar-inverse .navbar-nav > li > a:hover {
-  color: rgb(112,18,35) !important;
+  color: rgb(127,98,208) !important;
   background-color: transparent;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
   font-weight: bold;
-  text-transform: uppercase;
 }
 
