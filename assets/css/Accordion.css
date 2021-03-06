@@ -235,7 +235,7 @@ h6 {
 }
 
 #read_more_button {
-  box-shadow: 4px 13px 30px 1px rgba(56,134,252,0.24);
+  box-shadow: 4px 13px 30px 1px rgba(144,144,144,0.24);
 }
 
 @media (min-width: 992px) {
@@ -279,6 +279,12 @@ h6 {
 @media screen and (min-width: 300px) and (max-width: 980px) {
   .nav-item {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nanoTitle {
+    font-size: 20px;
   }
 }
 
