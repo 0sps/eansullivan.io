@@ -127,7 +127,7 @@
 }
 
 .navigation-clean.navbar-inverse .navbar-nav > li > a:focus, .navigation-clean.navbar-inverse .navbar-nav > li > a:hover {
-  color: #0e01a4 !important;
+  color: rgb(112,18,35) !important;
   background-color: transparent;
 }
 
