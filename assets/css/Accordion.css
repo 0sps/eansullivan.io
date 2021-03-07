@@ -322,3 +322,15 @@ h6 {
   font-weight: 300px;
 }
 
+@media screen and (max-width: 970px) {
+  .navbar-expand-md .navbar-toggler {
+    display: inline;
+  }
+}
+
+@media (min-width:971px) {
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
+}
+
