@@ -316,3 +316,9 @@ h6 {
   }
 }
 
+@media (min-width: 700px) {
+  #bottomColumn {
+    max-width: 430px;
+  }
+}
+
