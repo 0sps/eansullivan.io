@@ -1,3 +1,10 @@
+#mainNav.navbar-shrink {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsla(0,0%,100%,.3);
+  background: #000;
+}
+
 .jumbotron.jumbotron-main {
   height: 100%;
   width: 100%;
