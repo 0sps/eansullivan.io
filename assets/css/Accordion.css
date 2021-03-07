@@ -264,12 +264,6 @@ h6 {
   }
 }
 
-@media (min-width: 300px) {
-  .navbar-expand-md .navbar-toggler {
-    display: initial;
-  }
-}
-
 @media screen and (min-width: 300px) and (max-width: 980px) {
   #navcol-1 {
     display: none;

@@ -126,12 +126,6 @@ p {
 }
 
 @media (min-width:980px) {
-  .navbar-expand-md .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (min-width:980px) {
   .navbar-expand-md .navbar-collapse #navcol-1 {
     /*display: -ms-flexbox!important;*/
     display: flex!important;
