@@ -28,12 +28,10 @@
   margin-right: 74px;
 }
 
-@media (min-width:768px) {
-  p {
-    font-size: 18px;
-    /*line-height: 1.6;*/
-    /*margin: initial;*/
-  }
+p {
+  font-size: 18px;
+  /*line-height: 1.6;*/
+  /*margin: initial;*/
 }
 
 @media (min-width: 400px) {
