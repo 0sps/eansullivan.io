@@ -322,15 +322,23 @@ h6 {
   font-weight: 300px;
 }
 
-@media screen and (max-width: 970px) {
-  .navbar-expand-md .navbar-toggler {
-    display: inline;
+@media screen and (max-width: 400px) {
+  #softwareTitle {
+    font-size: 30px;
   }
 }
 
-@media (min-width:971px) {
-  .navbar-expand-md .navbar-toggler {
-    display: none;
+@media (min-width: 992px) {
+  #softcont {
+    margin-top: 100px;
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  #softcont {
+    margin-top: 50px;
+    max-width: 80%;
   }
 }
 
