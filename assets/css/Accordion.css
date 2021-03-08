@@ -347,10 +347,8 @@ h6 {
   }
 }
 
-@media (min-width: 800px) {
-  #columnThing {
-    margin-top: 20px;
-  }
+#columnThing {
+  margin-top: 20px;
 }
 
 @media (min-width: 500px) {
