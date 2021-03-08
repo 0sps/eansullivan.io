@@ -342,3 +342,20 @@ h6 {
   }
 }
 
+@media (min-width: 1200px) {
+  #softwareTitle {
+  }
+}
+
+@media (min-width: 800px) {
+  #columnThing {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 500px) {
+  #softwareSection {
+    margin-top: 80px;
+  }
+}
+
