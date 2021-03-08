@@ -330,30 +330,39 @@ h6 {
 
 @media (min-width: 992px) {
   #softcont {
-    margin-top: 100px;
+    margin-top: 150px;
     max-width: 60%;
   }
 }
 
 @media (min-width: 768px) {
   #softcont {
-    margin-top: 50px;
-    max-width: 80%;
+    margin-top: 100px;
+    max-width: 60%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
   #softwareTitle {
+    font-size: 53px;
   }
 }
 
-#columnThing {
-  margin-top: 20px;
+@media (min-width: 500px) {
+  #columnThing {
+    margin-top: 35px;
+  }
 }
 
 @media (min-width: 500px) {
   #softwareSection {
     margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #columnThing {
+    margin-top: -22px;
   }
 }
 
