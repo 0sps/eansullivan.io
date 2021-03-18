@@ -218,7 +218,8 @@ h6 {
 }
 
 @media (min-width: 300px) {
-  .container {
+  #softcont {
+    margin-top: -10px;
   }
 }
 
@@ -330,7 +331,7 @@ h6 {
 
 @media (min-width: 992px) {
   #softcont {
-    margin-top: 150px;
+    margin-top: 140px;
     max-width: 60%;
   }
 }
@@ -356,13 +357,7 @@ h6 {
 
 @media (min-width: 500px) {
   #softwareSection {
-    margin-top: 80px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #columnThing {
-    margin-top: -22px;
+    margin-top: 70px;
   }
 }
 
