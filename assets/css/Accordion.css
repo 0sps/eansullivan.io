@@ -3,7 +3,7 @@
   width: 14px;
   height: 2px;
   background: #333;
-  position: absolute;
+  position: relative;
   top: calc(50% - 1px);
   right: 1rem;
   display: block;
@@ -28,9 +28,6 @@
   }
 }
 
-#jumbo {
-}
-
 @media (min-width: 1000px) {
   footer {
     padding-top: 0;
@@ -44,10 +41,6 @@
   }
 }
 
-.navbar.navbar-light.navbar-expand-md.fixed-top {
-  border-radius: 0px;
-}
-
 @media (min-width: 300px) {
   #topImage {
     max-height: 100px;
@@ -58,12 +51,6 @@
   #topImage {
     max-height: none;
   }
-}
-
-.btn.btn-primary {
-}
-
-.btn.btn-primary.newClass {
 }
 
 @media (min-width: 400px) {
@@ -99,9 +86,6 @@
 
 .links2 {
   text-decoration: underline;
-}
-
-h6 {
 }
 
 @media (min-width: 400px) {
@@ -259,24 +243,6 @@ h6 {
   margin-top: 150px;
 }
 
-@media (min-width: 300px) {
-  #brand {
-    font-size: 25px;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 980px) {
-  #navcol-1 {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 980px) {
-  .nav-item {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 500px) {
   #nanoTitle {
     font-size: 20px;
@@ -320,7 +286,6 @@ h6 {
 .bodyTest {
   font-size: 16px;
   text-align: left;
-  font-weight: 300px;
 }
 
 @media screen and (max-width: 400px) {
